@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.8125rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    background-color: $lightGrayishBlue;
+}
+
+.container {
+    
+    display: inline-block;
+    margin: 3.75rem 1.65rem;
+    
+    .card1{
+
+        background-color: $moderateViolet;
+        background-image: url('/images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: top right 15%;
+        background-size: 125px 150px;
+        padding: 1.625rem;
+        color: set-text-color($moderateViolet);
+        border-radius: 0.625rem;
+        box-shadow: 5px 5px 20px $lightGray;
+        display: flexbox;
+
+        .image {
+
+            display: inline-block;
+    
+            img {
+                border: 0.1875rem solid hsl(263, 55%, 70%);
+                border-radius: 30px;
+            }
+    
+            .details {
+                display: inline-block;
+                position: absolute;
+                margin-left: 15px;
+                margin-top: 5px;
+
+                .name {
+                    display: block;
+                    font-size: 0.9375rem;
+                    font-weight: 600;
+                }
+    
+                .graduate {
+                    display: block;
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+
+    .card2{
+
+        background-color: $veryDarkGrayishBlue;
+        padding: 1.625rem;
+        color: set-text-color($veryDarkGrayishBlue);
+        border-radius: 0.625rem;
+        margin-top: 1.5625rem;
+        box-shadow: 5px 5px 20px $lightGray;
+
+        .image {
+    
+            display: inline-block;
+            
+            img {
+                border: 0.1875rem solid hsl(217, 19%, 75%);
+                border-radius: 30px;
+            }
+
+            .details {
+                display: inline-block;
+                position: absolute;
+                margin-left: 15px;
+                margin-top: 5px;
+
+                .name {
+                    display: block;
+                    font-size: 0.9375rem;
+                    font-weight: 600;
+                }
+    
+                .graduate {
+                    display: block;
+                    opacity: 50%;
+                }
+            }
+    
+        }
+    }
+
+    .card3{
+
+        background-color: $white;
+        padding: 1.625rem;
+        color: set-text-color($white);
+        border-radius: 0.625rem;
+        margin-top: 1.5625rem;
+        box-shadow: 5px 5px 20px $lightGray;
+
+        .image {
+    
+            img {
+                border-radius: 30px;
+            }
+    
+            .details {
+                display: inline-block;
+                position: absolute;
+                margin-left: 15px;
+                margin-top: 5px;
+
+                .name {
+                    display: block;
+                    font-size: 0.9375rem;
+                    font-weight: 600;
+                }
+    
+                .graduate {
+                    display: block;
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+
+    .card4{
+
+        background-color: $veryDarkBlackishBlue;
+        padding: 1.625rem;
+        color: set-text-color($veryDarkBlackishBlue);
+        border-radius: 0.625rem;
+        margin-top: 1.5625rem;
+        box-shadow: 5px 5px 20px $lightGray;
+
+        .image {
+    
+            img {
+                border: 0.1875rem solid hsl(217, 19%, 75%);
+                border-radius: 30px;
+            }
+    
+            .details {
+                display: inline-block;
+                position: absolute;
+                margin-left: 15px;
+                margin-top: 5px;
+
+                .name {
+                    display: block;
+                    font-size: 0.9375rem;
+                    font-weight: 600;
+                }
+    
+                .graduate {
+                    display: block;
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+
+    .card5{
+
+        background-color: $white;
+        padding: 1.625rem;
+        color: set-text-color($white);
+        border-radius: 0.625rem;
+        margin-top: 1.5625rem;
+        box-shadow: 5px 5px 20px $lightGray;
+
+        .image {
+    
+            img {
+                border-radius: 30px;
+            }
+    
+            .details {
+                display: inline-block;
+                position: absolute;
+                margin-left: 15px;
+                margin-top: 5px;
+
+                .name {
+                    display: block;
+                    font-size: 0.9375rem;
+                    font-weight: 600;
+                }
+    
+                .graduate {
+                    display: block;
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+
+   .testimonial {
+    
+        display: block;
+    
+        h1 {
+                font-weight: 600;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+        }
+    
+        p {
+            opacity: 70%;
+        }
+    }
+
+}
